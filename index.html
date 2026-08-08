@@ -43,25 +43,19 @@ h4{font-size:.98rem;font-weight:700;margin:0 0 4px}
 p{margin:0 0 9px}
 a{color:var(--gold)}
 .tabular{font-variant-numeric:tabular-nums}
-
 .hero{background:linear-gradient(150deg,var(--surface),var(--surface-2));border:1px solid var(--gold-line);border-radius:14px;padding:22px 20px;margin-bottom:14px}
 .eyebrow{font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin:0 0 6px}
 .hero .sub{color:var(--muted);font-size:.92rem;margin:8px 0 0}
-
 .note{background:var(--warn-soft);border:1px solid var(--line);border-left:3px solid var(--warn);border-radius:10px;padding:12px 14px;font-size:.88rem;margin-bottom:14px}
 .note b{color:var(--warn)}
-
 .nav{position:sticky;top:0;z-index:10;background:var(--bg);padding:9px 0;margin:0 -16px 16px;border-bottom:1px solid var(--line)}
 .nav-inner{max-width:920px;margin:0 auto;padding:0 16px;display:flex;gap:7px;flex-wrap:wrap;align-items:center}
 .pill{display:inline-block;padding:5px 12px;border-radius:999px;font-size:.8rem;border:1px solid var(--gold-line);color:var(--gold);background:var(--gold-soft);text-decoration:none;white-space:nowrap}
 .pill:hover{background:var(--gold);color:var(--bg)}
 .themebtn{margin-left:auto;padding:5px 11px;border-radius:999px;font-size:.8rem;border:1px solid var(--line);color:var(--muted);background:var(--surface);cursor:pointer}
-
 .card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px 18px 20px;margin-bottom:14px}
 .teamhead{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-bottom:2px solid var(--gold-soft);padding-bottom:10px;margin-bottom:6px}
 .teamhead .tag{font-size:.8rem;color:var(--muted)}
-
-/* badges */
 .b{display:inline-block;font-size:.68rem;font-weight:700;letter-spacing:.02em;padding:2px 7px;border-radius:6px;vertical-align:middle;white-space:nowrap;line-height:1.5}
 .ssr{background:var(--gold-soft);color:var(--gold);border:1px solid var(--gold-line)}
 .sr{background:rgba(150,150,170,.14);color:var(--muted);border:1px solid var(--line)}
@@ -74,30 +68,25 @@ a{color:var(--gold)}
 .e-thunder{color:var(--e-thunder);border:1px solid var(--e-thunder);background:transparent}
 .e-dark{color:var(--e-dark);border:1px solid var(--e-dark);background:transparent}
 .tc{background:var(--danger-soft);color:var(--danger);border:1px solid var(--danger);font-weight:700}
-
-/* formation grid */
 .form{display:grid;grid-template-columns:1fr;gap:8px;margin:10px 0 4px}
 .formrow{border:1px solid var(--line);border-radius:9px;padding:8px 10px;background:var(--surface-2)}
 .formrow .lbl{font-size:.72rem;letter-spacing:.05em;text-transform:uppercase;color:var(--gold);margin-bottom:4px}
 .formrow .mem{display:flex;gap:6px;flex-wrap:wrap}
 .chip{font-size:.82rem;padding:2px 9px;border-radius:7px;border:1px solid var(--line);background:var(--surface)}
 .chip b{color:var(--gold)}
-
-/* character card */
 .chars{display:grid;grid-template-columns:1fr;gap:10px;margin:10px 0}
-@media(min-width:620px){.chars{grid-template-columns:1fr 1fr}}
+@media(min-width:640px){.chars{grid-template-columns:1fr 1fr}}
 .ch{border:1px solid var(--line);border-radius:10px;padding:12px 13px;background:var(--surface-2)}
 .ch .cn{display:flex;align-items:baseline;gap:7px;flex-wrap:wrap;margin-bottom:6px}
 .ch .cn .nm{font-weight:700;font-size:1rem}
 .ch .tags{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:8px}
-.ch dl{margin:0;font-size:.86rem}
-.ch dt{color:var(--gold);font-weight:700;font-size:.74rem;letter-spacing:.03em;text-transform:uppercase;margin-top:7px}
+.ch dl{margin:0;font-size:.85rem}
+.ch dt{color:var(--gold);font-weight:700;font-size:.72rem;letter-spacing:.03em;text-transform:uppercase;margin-top:7px}
 .ch dd{margin:1px 0 0}
 .persona{background:var(--gold-soft);border-left:2px solid var(--gold);border-radius:6px;padding:5px 8px;margin-top:3px}
-
-/* callouts */
+.lead{background:rgba(120,140,200,.1);border-left:2px solid var(--e-water);border-radius:6px;padding:5px 8px;margin-top:3px}
 .cols{display:grid;grid-template-columns:1fr;gap:10px;margin:10px 0}
-@media(min-width:620px){.cols{grid-template-columns:1fr 1fr}}
+@media(min-width:640px){.cols{grid-template-columns:1fr 1fr}}
 .call{border:1px solid var(--line);border-radius:9px;padding:11px 13px;font-size:.9rem}
 .pro{background:rgba(111,191,135,.09);border-left:3px solid var(--ok)}
 .con{background:var(--danger-soft);border-left:3px solid var(--danger)}
@@ -105,14 +94,14 @@ a{color:var(--gold)}
 .call .lbl{font-weight:700;font-size:.76rem;letter-spacing:.04em;text-transform:uppercase;display:block;margin-bottom:5px}
 .pro .lbl{color:var(--ok)}.con .lbl{color:var(--danger)}.key .lbl{color:var(--gold)}
 .call ul{margin:3px 0 0;padding-left:19px}.call li{margin-bottom:4px}
-
 ul.tight{margin:4px 0 10px;padding-left:20px}ul.tight li{margin-bottom:5px}
 .mini{font-size:.82rem;color:var(--muted)}
 .tw{overflow-x:auto;border:1px solid var(--line);border-radius:9px;margin:8px 0}
-table{border-collapse:collapse;width:100%;min-width:440px;font-size:.86rem}
+table{border-collapse:collapse;width:100%;min-width:440px;font-size:.85rem}
 th{background:var(--surface-2);color:var(--muted);font-size:.72rem;letter-spacing:.03em;text-transform:uppercase;text-align:left;padding:8px 10px;border-bottom:1px solid var(--line)}
 td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
 tr:last-child td{border-bottom:none}
+.best{color:var(--gold);font-weight:700}
 footer{margin-top:22px;padding-top:16px;border-top:1px solid var(--line);font-size:.8rem;color:var(--muted)}
 footer a{color:var(--muted)}
 @media(max-width:480px){.wrap{padding:22px 12px 60px}h1{font-size:1.28rem}.nav{margin-left:-12px;margin-right:-12px}.nav-inner{padding:0 12px}}
@@ -125,19 +114,20 @@ footer a{color:var(--muted)}
   <header class="hero">
     <p class="eyebrow">幻想水滸傳 STAR LEAP · 隊伍攻略</p>
     <h1>三大最強隊伍完整解析：主角軸／火／劍</h1>
-    <p class="sub">每個隊員的技能、屬性、定位、個性發動（固有スキル）、組隊邏輯、連攜搭配、主軸特性、優缺點與替補一次講清楚。日文名以原文為準。</p>
+    <p class="sub">每個隊員的<b>完整技能組</b>（通常攻擊・紋章技・奧義・個性發動・指南技・隊長技）＋組隊邏輯・連攜搭配・隊長技分析・主軸特性・優缺點・替補。日文名以原文為準。</p>
   </header>
 
   <div class="note">
-    <b>時效與查證聲明</b>：本頁資料查證於 <b>2026-08-09（日版 8/7 上線第 3 天）</b>，取自日本攻略站 GameWith／Gamerch／神ゲー攻略／eity-blog。<b>屬開服首週早期資料，數值與強度評價之後版本極可能調整。</b>凡站上未載或站間有出入者一律標 <span class="b tc">待確認</span>，未編造；技能傷害生數字疑有表格黏字，本頁多以「效果」定性描述為主。此為愛好者整理、非官方攻略。
+    <b>時效與查證聲明</b>：本頁查證於 <b>2026-08-09（日版 8/7 上線第 3 天）</b>，取自 GameWith／Gamerch／神ゲー攻略／eity-blog。<b>屬開服首週早期資料，數值與強度之後版本極可能調整。</b>站上未載或站間出入者一律標 <span class="b tc">待確認</span>，未編造；技能傷害生數字疑有表格黏字，本頁多以「效果」定性描述。此為愛好者整理、非官方攻略。
   </div>
 
   <nav class="nav"><div class="nav-inner">
     <a class="pill" href="#sys">機制速讀</a>
-    <a class="pill" href="#persona">個性發動</a>
+    <a class="pill" href="#persona">技能種類</a>
     <a class="pill" href="#hero">主角軸隊</a>
     <a class="pill" href="#fire">火隊</a>
     <a class="pill" href="#sword">劍隊</a>
+    <a class="pill" href="#leader">隊長技分析</a>
     <a class="pill" href="#todo">待確認</a>
     <button class="themebtn" id="tb" type="button">深/淺色</button>
   </div></nav>
@@ -145,32 +135,39 @@ footer a{color:var(--muted)}
   <!-- 機制速讀 -->
   <section class="card" id="sys">
     <div class="teamhead"><h2>共通機制速讀</h2><span class="tag">看懂這段，下面組隊邏輯就通了</span></div>
-    <h3>① 兩軸屬性系統（強隊都圍繞單一軸組隊的原因）</h3>
-    <p>每個角色有<b>兩個獨立標籤</b>：<b>五行</b>（火／水／土／風／雷／闇）與<b>武器種</b>（闘／劍／智…）。兩軸共同決定對敵的<b>弱點(WEAK)／抗性(RESIST)</b>。<b>多數強化 buff 需「同五行」或「同武器種」才生效</b>——所以三大強隊各自圍繞一個軸：主角軸＝<span class="b e-earth">土五行</span>、火隊＝<span class="b e-fire">火五行</span>、劍隊＝<span class="b wpn">劍武器種</span>。</p>
-    <h3>② 打弱點 → 失衡 → 擊倒（核心輸出節奏）</h3>
+    <h3>① 兩軸屬性系統</h3>
+    <p>每個角色有<b>兩個獨立標籤</b>：<b>五行</b>（火／水／土／風／雷／闇）與<b>武器種</b>（闘／劍／智…）。兩軸共同決定對敵的<b>弱點(WEAK)／抗性(RESIST)</b>。<b>多數強化 buff 需「同五行」或「同武器種」才生效</b>——三大強隊各圍繞一軸：主角軸＝<span class="b e-earth">土五行</span>、火隊＝<span class="b e-fire">火五行</span>、劍隊＝<span class="b wpn">劍武器種</span>。</p>
+    <h3>② 打弱點 → 失衡 → 擊倒</h3>
     <ul class="tight">
-      <li>打敵人<b>弱點</b> → 削「平衡值(バランス値)」→ 歸零進入 <b>失衡(アンバランス)</b>：敵受傷 <b>+25%</b>、行動順掉到最後</li>
+      <li>打<b>弱點</b>→削「平衡值(バランス値)」→ 歸零進 <b>失衡(アンバランス)</b>：敵受傷 <b>+25%</b>、行動殿後</li>
       <li>失衡中再削 → <b>擊倒(ノックダウン)</b>：敵受傷 <b>+50%</b>、物防魔防各降 1 階</li>
-      <li>削平衡值「<b>多段(命中次數多)的攻擊</b>」最有效 → 先用多段連擊破，再用大招在增傷視窗一次收</li>
+      <li>削平衡值「<b>多段(命中次數多)攻擊</b>」最有效 → 先多段連擊破，再用大招在增傷視窗一次收</li>
     </ul>
     <h3>③ 連攜(連携)＋時間軸回合制</h3>
     <ul class="tight">
-      <li><b>時間軸回合制</b>：畫面下方時間軸、角色「<b>速</b>」數值決定行動先後</li>
-      <li><b>連攜</b>：我方<b>4 人以上能連續行動</b>時跳圖示、手動發動；<b>越後段傷害越高</b>。觸發關鍵＝把隊員的「速」<b>調近</b>讓行動排在一起（與站位無關）</li>
+      <li><b>時間軸回合制</b>：角色「<b>速</b>」決定行動先後</li>
+      <li><b>連攜</b>：我方<b>4 人以上連續行動</b>時手動發、<b>越後段傷越高</b>；觸發靠把隊員「速」<b>調近</b>（與站位無關）</li>
     </ul>
     <h3>④ 站位：前列 3／後列 3</h3>
-    <p>前列放<b>耐久坦與吃「同列」buff 的主攻</b>；後列放<b>脆皮火力/補師</b>（怕被打）。部分角色的個性/技能寫「<b>同列</b>」＝同一橫排，所以「前列同列 buff」要把受益的主攻放前列才吃得到。</p>
+    <p>前列放耐久坦與吃「同列」buff 的主攻；後列放脆皮火力/補師。技能寫「<b>同列</b>」＝同一橫排，前列同列 buff 要把主攻放前列才吃到。</p>
   </section>
 
-  <!-- 個性發動 -->
+  <!-- 技能種類 -->
   <section class="card" id="persona">
-    <div class="teamhead"><h2>「個性發動」是什麼？</h2><span class="tag">＝固有スキル／パッシブ</span></div>
-    <p><b>遊戲裡沒有官方叫「個性／こせい」的系統。</b>你說的「個性發動」，對應的是角色的 <b>「固有スキル(固有技能)」</b>，各站也標成 <b>「パッシブスキル」</b>——每名角色<b>專屬、在特定條件下自動「發動」的招牌被動</b>，最能代表該角色的個性。（中文攻略/實況常把它意譯成「個性」，不是遊戲內原詞。）</p>
-    <div class="cols">
-      <div class="call key"><span class="lbl">怎麼觸發（條件式，非隨機）</span>常見：<b>戰鬥開始時</b>／<b>HP 瀕死・低於X%</b>／<b>計 N 次行動後</b>／<b>受 N 次段階強化後</b>／<b>隊友戰鬥不能時</b>／かばう(掩護)時／普攻機率。多帶「最多 1~N 次」上限。</div>
-      <div class="call key"><span class="lbl">給什麼效果</span>以<b>增益 buff</b>（攻防/魔攻魔防上昇、段階強化）為主，另有 <b>HP 回復</b>、<b>充奧義槽</b>、<b>追加發動奧義</b>、支援隊友；少數是<b>雙面刃</b>（如ゲオルグ開場暴衝後遞減）。</div>
-    </div>
-    <p class="mini">與其他系統區別：<b>固有スキル</b>（＝個性，專屬被動自動發）／<b>隊長技(リーダーパッシブ)</b>（只在「當隊長」時全隊生效）／<b>紋章技</b>（裝紋章的主動技，手動放）／<b>奧義</b>（集滿槽的大招）／<b>連攜</b>（4人連動，另一套系統）。三隊全員都有個性發動，效果見各角色卡「個性發動」欄。</p>
+    <div class="teamhead"><h2>角色技能有哪幾種？</h2><span class="tag">看懂欄位，下面每張卡就好讀</span></div>
+    <p>每張角色卡的技能分這幾欄，這是《STAR LEAP》角色的<b>完整技能組</b>：</p>
+    <div class="tw"><table>
+      <thead><tr><th>技能種類</th><th>是什麼／怎麼用</th></tr></thead>
+      <tbody>
+        <tr><td><b>通常攻擊</b></td><td>平時的普通攻擊，部分角色附特性（如機率連擊、對特定 tag 加傷）</td></tr>
+        <tr><td><b>紋章技(紋章スキル)</b></td><td>裝紋章帶來的<b>主動技</b>，戰鬥中手動放（多有使用次數）</td></tr>
+        <tr><td><b>奧義</b></td><td>集滿奧義槽後手動發的<b>大招</b>，威力最高</td></tr>
+        <tr><td><b>個性發動(固有スキル)</b></td><td>＝你說的「個性」。角色<b>專屬被動</b>，特定條件自動發動（開場／瀕死／計N次行動／隊友倒下…）。<b>17 名全員都有</b>，部分還帶「付属」第二被動</td></tr>
+        <tr><td><b>指南技/相性技</b></td><td>可搭配的<b>輔助被動</b>（如連攜補佐、與傷提升、抵抗減益、起死復活等）</td></tr>
+        <tr><td><b>隊長技(リーダーパッシブ)</b></td><td>【常時】<b>只有設為隊長那一隻</b>才對全隊生效的常時 buff（見文末<a href="#leader">隊長技分析</a>）</td></tr>
+      </tbody>
+    </table></div>
+    <p class="mini">關於「個性發動」：<b>遊戲沒有官方叫「個性／こせい」的系統</b>，那是各站的「固有スキル／パッシブ」，中文攻略常意譯成「個性」。它與「隊長技」是<b>不同欄位</b>：個性是每隻自帶、條件觸發；隊長技只在當隊長時生效。</p>
   </section>
 
   <!-- 主角軸隊 -->
@@ -180,58 +177,68 @@ footer a{color:var(--muted)}
       <div class="formrow"><div class="lbl">前列</div><div class="mem"><span class="chip"><b>幻水Ⅰ主角</b>·主C</span><span class="chip">メース·補</span><span class="chip">ヒックス·坦</span></div></div>
       <div class="formrow"><div class="lbl">後列</div><div class="mem"><span class="chip">ファラ·補</span><span class="chip">レツオウ·補</span><span class="chip"><b>ジーン</b>·補師</span></div></div>
     </div>
-
     <div class="chars">
       <div class="ch"><div class="cn"><span class="nm">幻水Ⅰ主人公</span><span class="mini">解放の継承者</span></div>
         <div class="tags"><span class="b ssr">SSR</span><span class="b e-earth">土</span><span class="b wpn">闘</span><span class="b role">主C</span></div>
         <dl><dt>奧義</dt><dd>ソウル・オブ・リベルト：單體物理多段＋自身物攻大漲</dd>
-        <dt>紋章</dt><dd>黒い影(ソウルイーター)全體魔法＋敵物防魔防降；闘岩の棍 橫範圍物理</dd>
-        <dt>個性發動</dt><dd class="persona">「く……」隊友戰鬥不能時自身攻擊力+100%(最多1回)。附帶「命喰」：計3次行動後令正/背面隊友戰鬥不能＝<b>自帶秒隊友的雙面刃</b>。無回復無復活。</dd></dl>
+        <dt>紋章技</dt><dd>黒い影(ソウルイーター) 全體魔法＋敵物防魔防降；闘岩の棍 橫範圍物理</dd>
+        <dt>個性發動</dt><dd class="persona">「く……」隊友戰鬥不能時自身攻擊+100%(最多1回)；附「命喰」計3次行動後令正/背隊友戰鬥不能＝<b>自帶秒隊友雙面刃</b>。無回復無復活</dd>
+        <dt>指南技</dt><dd>呼応(連攜中攻擊與傷+50%)／WEAK痛撃(打弱點增傷)／生死の呪／忍耐</dd>
+        <dt>隊長技</dt><dd class="lead">解放軍 tag 全體<b>基礎能力+10%</b></dd></dl>
       </div>
       <div class="ch"><div class="cn"><span class="nm">メース</span><span class="mini">鍛冶屋大師匠</span></div>
         <div class="tags"><span class="b ssr">SSR</span><span class="b e-earth">土</span><span class="b wpn">闘</span><span class="b role">補助</span></div>
-        <dl><dt>奧義／技</dt><dd>鍛冶屋攻撃 單體多段＋敵物防降；鍛錬 味方物攻+2</dd>
-        <dt>個性發動</dt><dd class="persona">「我が志を遺すため」戰鬥開始時，<b>前列的土屬性隊友攻擊力大升</b>（<span class="b tc">35%↔55%</span> 站間有出入）＝幾乎專餵主角。另「防腐加工」75% 抵抗被解除強化。</dd></dl>
+        <dl><dt>奧義</dt><dd>鍛冶屋攻撃 單體多段＋敵物防降</dd>
+        <dt>紋章技</dt><dd>鍛錬(味方單體物攻+2)；荒叩き(單體物理＋自身物攻+1)</dd>
+        <dt>個性發動</dt><dd class="persona">「我が志を遺すため」戰鬥開始時<b>前列土屬性隊友攻擊力大升</b>（<span class="b tc">35%↔55%</span> 站間出入）＝專餵主角</dd>
+        <dt>指南技</dt><dd>鍛冶屋師匠(物攻物防+30%)／凄腕(與傷+70%最多5次)／防腐加工(75%抵抗被解除強化)</dd>
+        <dt>隊長技</dt><dd class="lead">解放軍 tag <b>HP＆攻擊+12%</b></dd></dl>
       </div>
       <div class="ch"><div class="cn"><span class="nm">ヒックス</span><span class="mini">戦士の村の子</span></div>
         <div class="tags"><span class="b sr">SR</span><span class="b e-earth">土</span><span class="b wpn">劍</span><span class="b role">坦</span></div>
-        <dl><dt>技</dt><dd>戦剣ノ壱 單體物理＋敵物防降；縱/橫範圍物理</dd>
-        <dt>個性發動</dt><dd class="persona">「我が剣 テンガアールにかけて」<b>護(かばう)土屬性隊友時，自身物攻＆物防+25~35%</b>；瀕死迴避+35%。＝<b>主角的貼身擋刀坦</b>。</dd></dl>
+        <dl><dt>奧義</dt><dd>きみがくれた勇気 縱範圍物理＋自身物攻+1</dd>
+        <dt>紋章技</dt><dd>戦剣ノ壱(單體物理＋敵物防降)；荒土(橫範圍物理)</dd>
+        <dt>個性發動</dt><dd class="persona">「我が剣 テンガアールにかけて」<b>護(かばう)土屬隊友時自身物攻＆物防+25~35%</b>；瀕死迴避+35%＝主角貼身擋刀坦</dd>
+        <dt>隊長技</dt><dd class="lead">劍屬性 物防+10%</dd></dl>
       </div>
       <div class="ch"><div class="cn"><span class="nm">ファラ</span><span class="mini">風任せ力任せ</span></div>
         <div class="tags"><span class="b ssr">SSR</span><span class="b e-wind">風</span><span class="b wpn">闘</span><span class="b role">補助</span></div>
         <dl><dt>奧義</dt><dd>荷投流秘技【乱】單體＋全體物理，機率全體物防降</dd>
-        <dt>個性發動</dt><dd class="persona">「ウチらは負っけないよー！」<b>瀕死時 HP 全回復＋物攻+5階＋後列隊友物攻+50%</b>；另「ド根性」受致命傷以 HP1 撐住＋回25%＋物防+25%。＝<b>耐死＋後排增傷</b>，正好接住主角「秒隊友」的機制。</dd></dl>
+        <dt>紋章技</dt><dd>怪力(自身物攻+2)；闘嵐の擲(橫範圍物理)</dd>
+        <dt>個性發動</dt><dd class="persona">三段被動：①「負っけないよー！」瀕死時 HP 全回＋物攻+5階＋後列物攻+50% ②前方補助 正面HP攻防+15% ③ド根性 受致命傷以HP1撐住+回25%+物防+25%</dd>
+        <dt>隊長技</dt><dd class="lead">風屬性 物攻+20%</dd></dl>
       </div>
       <div class="ch"><div class="cn"><span class="nm">レツオウ</span><span class="mini">幻を追う包丁人</span></div>
         <div class="tags"><span class="b sr">SR</span><span class="b e-earth">土</span><span class="b wpn">劍</span><span class="b role">補助</span></div>
-        <dl><dt>技</dt><dd>千刃捌き 橫範圍物理；御馳走 味方橫排回HP＋物攻魔攻速各+1</dd>
-        <dt>個性發動</dt><dd class="persona">「ウデをふるわせて…」戰鬥開始時，<b>物攻最高的土屬性隊友1體物攻+40~60%</b>＝指名灌注主角。放後列(+5%攻)。</dd></dl>
+        <dl><dt>奧義</dt><dd>千刃捌き 橫範圍物理多段</dd>
+        <dt>紋章技</dt><dd>荒土(橫範圍物理)；御馳走(味方橫排回HP＋物攻魔攻速各+1，2回)</dd>
+        <dt>個性發動</dt><dd class="persona">「ウデをふるわせて…」戰鬥開始時<b>物攻最高的土屬性隊友1體物攻+40~60%</b>＝指名灌注主角。放後列(+5%攻)</dd>
+        <dt>隊長技</dt><dd class="lead">全體 HP+7%</dd></dl>
       </div>
       <div class="ch"><div class="cn"><span class="nm">ジーン</span><span class="mini">深淵の紋章師</span></div>
         <div class="tags"><span class="b ssr">SSR</span><span class="b e-water">水</span><span class="b wpn">智</span><span class="b role">回復</span></div>
-        <dl><dt>奧義／紋章</dt><dd>氷結の楔 單體魔法＋敵魔防降；優しさの波 味方橫排回HP</dd>
-        <dt>個性發動</dt><dd class="persona">「万全を期しましょうね」計4次行動後魔攻+50%＋<b>全隊行動時回HP(最多5次·每次12.5%)</b>；指南「起死」<b>隊友戰鬥不能時16%HP復活</b>。＝抵銷主角秒隊友代價的續戰核心。</dd></dl>
+        <dl><dt>奧義</dt><dd>氷結の楔 單體魔法多段＋敵魔防降</dd>
+        <dt>紋章技</dt><dd>優しさの波(味方橫排回HP，2回)；氷の息吹(單體魔法)</dd>
+        <dt>個性發動</dt><dd class="persona">「万全を期しましょうね」計4次行動後魔攻+50%＋<b>全隊行動時回HP(最多5次)</b></dd>
+        <dt>指南技</dt><dd>起死(隊友戰鬥不能時16%HP復活)／紋章技次數不減／HP回復量+75%／正面紋章增傷+15%</dd>
+        <dt>隊長技</dt><dd class="lead">水屬性 HP＆攻擊+15%(可疊5次)</dd></dl>
       </div>
     </div>
-
     <h3>組隊邏輯 · 為何以主角為核</h3>
-    <p>開服公認「以幻水Ⅰ主角當攻手最強」——他倍率遠勝其他 SSR、且自帶多重自 buff。官方一次放進 <b>3 名等同「主角專屬輔助」</b>的角色：<b>メース</b>(前列土攻+35~55%)、<b>レツオウ</b>(最高物攻土+40~60%)、<b>ヒックス</b>(專護土屬)——三人的 buff/護盾條件全指向「前列、物攻最高、土屬性」＝主角本人。主角唯一硬傷「行動3次後秒掉正/背隊友」，由 <b>ジーン(起死＋範圍回血)＋ファラ(瀕死全回/耐死)</b> 吸收，甚至因「隊友倒下→主角攻擊+100%」<b>把缺點轉成增益</b>。</p>
-    <h3>連攜 · 屬性統一</h3>
-    <p>疊 buff 鏈：<b>メース前列土+35~55% → レツオウ 最高物攻土+40~60% → 主角自身物攻大漲＋隊友倒下暴增</b>三段全疊主角一人。六人中<b>土屬性佔4</b>(主角/メース/ヒックス/レツオウ)啟動所有土 buff；ファラ(風)、ジーン(水)為功能外掛。連攜靠「速」湊近，主角指南「呼応」在連攜中再+50% 傷害。</p>
+    <p>官方一次放進 <b>3 名等同「主角專屬輔助」</b>：<b>メース</b>(前列土攻+35~55%)、<b>レツオウ</b>(最高物攻土+40~60%)、<b>ヒックス</b>(專護土屬)——buff/護盾全指向「前列、物攻最高、土屬性」＝主角。主角硬傷「行動3次後秒正/背隊友」由 <b>ジーン(起死+範圍回)＋ファラ(瀕死全回/耐死)</b> 吸收，甚至因「隊友倒下→主角攻擊+100%」<b>把缺點轉成增益</b>。</p>
     <div class="cols">
       <div class="call pro"><span class="lbl">優點</span><ul>
         <li>主角倍率突出＋土 buff 多層疊加，單體爆發極高</li>
         <li>「隊友倒下→主角爆漲」把缺點反轉成正循環</li>
-        <li>ジーン 範圍回復＋起死、ファラ 耐死，<b>容錯與續戰高</b></li>
-        <li>前3後3 與土軸4隻天然契合、站位不衝突</li></ul></div>
+        <li>ジーン 範圍回復＋起死、ファラ 耐死，容錯與續戰高</li>
+        <li>前3後3 與土軸4隻天然契合</li></ul></div>
       <div class="call con"><span class="lbl">缺點</span><ul>
         <li><b>單核依賴重</b>：主角被集火/封鎖＝全隊崩</li>
-        <li>五行未全統一(ファラ風、ジーン水)，部分「同五行」buff 吃不滿</li>
+        <li>五行未全統一(ファラ風、ジーン水)，部分同五行 buff 吃不滿</li>
         <li>ヒックス／レツオウ 為 SR，中後期數值恐不足</li>
         <li>主角「秒後排隊友」需靠回復 cover，對速度調整/操作要求較高</li></ul></div>
     </div>
-    <p class="mini"><b>替補（回復位三選一硬需求）</b>：ジーン ↔ ルセリナ(雷·回復次數多) ↔ アイリーン(火·全體回復＋自我蘇生1次)。<b>取得</b>：⚠️主角<b>非新手加成池、抽取門檻高</b>；ジーン 是否限定 <span class="b tc">待確認</span>；ヒックス／レツオウ 為 SR 好取得＝本隊低門檻骨架。</p>
+    <p class="mini"><b>替補（回復位三選一硬需求）</b>：ジーン ↔ ルセリナ(雷) ↔ アイリーン(火·自我蘇生1次)。<b>取得</b>：⚠️主角<b>非新手加成池、門檻高</b>；ジーン 限定與否 <span class="b tc">待確認</span>；ヒックス／レツオウ 為 SR 好取得＝低門檻骨架。<b>隊長選誰</b>見<a href="#leader">隊長技分析</a>（推 主人公）。</p>
   </section>
 
   <!-- 火隊 -->
@@ -241,104 +248,132 @@ footer a{color:var(--muted)}
       <div class="formrow"><div class="lbl">前列</div><div class="mem"><span class="chip"><b>フー・スー・ルー</b>·主C</span><span class="chip">レパント·副C</span><span class="chip">フラナガン·坦</span></div></div>
       <div class="formrow"><div class="lbl">後列</div><div class="mem"><span class="chip">モース·補</span><span class="chip">アップル·補</span><span class="chip">アイリーン·補師</span></div></div>
     </div>
-
     <div class="chars">
       <div class="ch"><div class="cn"><span class="nm">フー・スー・ルー</span><span class="mini">虎頭の剛腕戦士</span></div>
         <div class="tags"><span class="b ssr">SSR</span><span class="b e-fire">火</span><span class="b wpn">闘</span><span class="b role">主C</span></div>
-        <dl><dt>奧義</dt><dd>剛腕サマーソルトクラッシュ 單體物理＋機率敵物防降</dd>
-        <dt>個性發動</dt><dd class="persona">「闘いのゴングだぜ！」戰鬥開始時，<b>同列(前列)的火屬性隊友物攻+40~55%＋3~4階段強化</b>。隊長技：火屬隊友 HP＆物攻+15%。＝把全前列火力瞬間拉滿的立隊核心。</dd></dl>
+        <dl><dt>通常攻擊</dt><dd>双斧 單體物理</dd>
+        <dt>奧義</dt><dd>剛腕サマーソルトクラッシュ 單體物理＋機率敵物防降</dd>
+        <dt>紋章技</dt><dd>闘炎の斧 縱範圍物理</dd>
+        <dt>個性發動</dt><dd class="persona">「闘いのゴングだぜ！」戰鬥開始時<b>同列(前列)火屬隊友物攻+40~55%＋3~4階段強化</b></dd>
+        <dt>指南技</dt><dd>呼応／WEAK痛撃／剛腕(物理攻擊時物攻+20~35%)／闘志(挨物理物攻+15%最多4)</dd>
+        <dt>隊長技</dt><dd class="lead">火屬性 <b>HP＆物攻+15%</b></dd></dl>
       </div>
       <div class="ch"><div class="cn"><span class="nm">レパント</span><span class="mini">義焔の大富豪</span></div>
         <div class="tags"><span class="b ssr">SSR</span><span class="b e-fire">火</span><span class="b wpn">劍</span><span class="b role">副C</span></div>
-        <dl><dt>奧義</dt><dd>夫婦攻撃 縱範圍物理＋自身物攻+1</dd>
-        <dt>個性發動</dt><dd class="persona">「このキリンジで貴様らを討つ！」HP≤99.9%時 <b>HP+50%＋物攻+100%</b>(最多1回)。付属「フルパワー」：HP滿攻擊時攻擊+50%。＝越早開打越猛的第二輸出。</dd></dl>
+        <dl><dt>通常攻擊</dt><dd>單體物理</dd>
+        <dt>奧義</dt><dd>夫婦攻撃 縱範圍物理＋自身物攻+1</dd>
+        <dt>紋章技</dt><dd>斬牙(單體物理)；烈火斬り(單體物理·火劍)</dd>
+        <dt>個性發動</dt><dd class="persona">「このキリンジで貴様らを討つ！」HP≤99.9%時<b>HP+50%＋物攻+100%</b>(1回)；付属「フルパワー」HP滿攻擊時攻擊+50%</dd>
+        <dt>隊長技</dt><dd class="lead">解放軍 tag HP＆物攻<b>+18%</b>（本隊最高數值）</dd></dl>
       </div>
       <div class="ch"><div class="cn"><span class="nm">フラナガン</span><span class="mini">頑健不倒の熱血漢</span></div>
         <div class="tags"><span class="b ssr">SSR</span><span class="b e-fire">火</span><span class="b wpn">闘</span><span class="b role">坦</span></div>
         <dl><dt>奧義</dt><dd>筋肉躍動撃 全體物理＋自身物攻+1 <span class="b tc">屬性標記待確認</span></dd>
-        <dt>個性發動</dt><dd class="persona">「これで…無敵っス～！」累計受3次段階強化後 <b>HP+50%＋物防+75%</b>。指南「物理守り」對隊友發かばう＋物防+35%、「後方物理保護」背面隊友物防+20%。＝把傷害往自己引的前排肉盾。</dd></dl>
+        <dt>個性發動</dt><dd class="persona">「これで…無敵っス～！」累計受3次段階強化後<b>HP+50%＋物防+75%</b>；付属 瀕死時物防+3階(最多2)</dd>
+        <dt>指南技</dt><dd>物理守り(對隊友發かばう+物防+35%)／開戰防御強化(防御4階)／後方物理保護(背面物防+20%)／熱血(HP20%↓物攻物防+2階)</dd>
+        <dt>隊長技</dt><dd class="lead">里守軍 tag 物防+20%</dd></dl>
       </div>
       <div class="ch"><div class="cn"><span class="nm">モース</span><span class="mini">火炎の鍛冶師</span></div>
         <div class="tags"><span class="b sr">SR<span class="b tc" style="margin-left:3px">稀有度待確認</span></span><span class="b e-fire">火</span><span class="b wpn">闘</span><span class="b role">補助</span></div>
         <dl><dt>奧義</dt><dd>フレイムスマッシュ 橫範圍物理＋敵物防降＋自身速+1</dd>
-        <dt>個性發動</dt><dd class="persona">「さらに強く鍛えて…」<b>累計2次給隊友物攻強化後，指定火屬隊友1體物攻＆物防+55%</b>。＝專餵主C的物攻增幅器＋助攻失衡。</dd></dl>
+        <dt>紋章技</dt><dd>鍛錬(味方單體物攻+2)；焼入れ(單體物理＋自身物攻+1)</dd>
+        <dt>個性發動</dt><dd class="persona">「さらに強く鍛えて…」<b>累計2次給隊友物攻強化後，指定火屬隊友1體物攻＆物防+55%</b></dd>
+        <dt>指南技</dt><dd>前方補助(正面HP+15%攻防+15%)／強攻擊(與傷+50%最多5)／HP滿時攻擊+35%(最多5)</dd>
+        <dt>隊長技</dt><dd class="lead">解放軍 tag HP＆攻擊+6%</dd></dl>
       </div>
       <div class="ch"><div class="cn"><span class="nm">アップル</span><span class="mini">名軍師の教え子</span></div>
         <div class="tags"><span class="b sr">SR<span class="b tc" style="margin-left:3px">稀有度待確認</span></span><span class="b e-fire">火</span><span class="b wpn">智</span><span class="b role">補助</span></div>
         <dl><dt>奧義</dt><dd>炎舞の采配 橫範圍物理＋<b>我方全體 魔攻+1、物攻+1</b></dd>
-        <dt>個性發動</dt><dd class="persona">「マッシュ先生の教えの通りに」戰鬥開始時火屬隊友防禦+14%。指南「連携補佐」<b>連攜中我方全體攻擊+10%</b>。＝連攜隊的潤滑劑。</dd></dl>
+        <dt>紋章技</dt><dd>伏兵(單體魔法)；衛生兵(味方單體回HP48~60%)</dd>
+        <dt>個性發動</dt><dd class="persona">「マッシュ先生の教えの通りに」戰鬥開始時火屬隊友防禦+10~14%</dd>
+        <dt>指南技</dt><dd><b>連携補佐(連攜中全體攻擊+10%)</b>／前方補助／知恵者の集い(攻+智屬數×2~4%)／窮状の粘り(有隊友倒地時防御+15~35%)</dd>
+        <dt>隊長技</dt><dd class="lead">解放軍 tag 基礎能力+5%</dd></dl>
       </div>
       <div class="ch"><div class="cn"><span class="nm">アイリーン</span><span class="mini">覚悟の愛</span></div>
         <div class="tags"><span class="b ssr">SSR</span><span class="b e-fire">火</span><span class="b wpn">智</span><span class="b role">回復</span></div>
-        <dl><dt>奧義</dt><dd>フレアヴェール 橫範圍魔法＋<b>全體回HP約15%</b></dd>
-        <dt>個性發動</dt><dd class="persona">「あなた、立て直しましょう！」隊友HP≤85%時 <b>全隊回HP25%＋火/風屬防禦+25%</b>。指南「覚悟」受致死傷以HP1存活＋回50%(1次)。＝本隊唯一補師＋團隊保命。</dd></dl>
+        <dl><dt>通常攻擊</dt><dd>踊る火炎 單體魔法</dd>
+        <dt>奧義</dt><dd>フレアヴェール 橫範圍魔法＋<b>全體回HP約15%</b></dd>
+        <dt>紋章技</dt><dd>大いなる恵み(全體回HP12~15%)；踊る火炎(單體魔法)</dd>
+        <dt>個性發動</dt><dd class="persona">「あなた、立て直しましょう！」隊友HP≤85%時<b>全隊回HP25%＋火/風屬防禦+25%</b></dd>
+        <dt>指南技</dt><dd>紋章倹約(紋章技1次不減次數)／癒力(治療量+75~100%)／超過回復／覚悟(受致死以HP1存活+回50%，1次)</dd>
+        <dt>隊長技</dt><dd class="lead">火屬性 魔防+20%</dd></dl>
       </div>
     </div>
-
     <h3>組隊邏輯 · 為何統一火屬</h3>
-    <p>立隊原理＝「同屬堆疊→觸發屬性專屬 buff」。官方明言「<b>火屬性隊友越多，能力大幅強化</b>」，湊齊可打「SS 級火力」，混色則「發揮不出強項」。核心 <b>フー・スー・ルー</b> 掛兩層放大器：隊長技(全火屬HP物攻+15%)＋個性(開場同列火屬物攻+40~55%)。把 <b>レパント、フラナガン</b> 放進他的前列同列，開場三前排瞬間吃滿加成。</p>
-    <h3>連攜 · 火屬集火</h3>
-    <p>增益鏈：<b>フー・スー・ルー(開場前列+40~55%)＋モース(火屬1體+55%)＋アップル(全體物攻魔攻+1、連攜中全體+10%)</b> 三重疊到前排。連攜靠「速」湊近，主C「呼応」連攜中再+35~50%。全隊火屬同時貫穿敵弱點快速堆失衡→擊倒。</p>
+    <p>官方明言「<b>火屬性隊友越多能力大幅強化</b>」，湊齊打「SS 級火力」、混色則「發揮不出強項」。核心 <b>フー・スー・ルー</b> 掛兩層放大器：隊長技(全火屬HP物攻+15%)＋個性(開場同列火屬物攻+40~55%)。把 レパント、フラナガン 放進他的前列同列，開場三前排瞬間吃滿。增益鏈：<b>フー・スー・ルー＋モース(火屬1體+55%)＋アップル(全體物攻魔攻+1、連攜中全體+10%)</b> 全疊前排。</p>
     <div class="cols">
       <div class="call pro"><span class="lbl">優點</span><ul>
-        <li><b>開場即巔峰</b>：多數 buff 戰鬥開始瞬發，前列物攻直接拉滿</li>
-        <li>同屬共振，增益極厚，火力上限「SS 級」</li>
-        <li>フラナガン かばう＋アイリーン 全體回復/保命，前排硬、有兜底</li>
+        <li><b>開場即巔峰</b>：多數 buff 戰鬥開始瞬發</li>
+        <li>同屬共振，火力上限「SS 級」</li>
+        <li>フラナガン かばう＋アイリーン 全體回復/保命，前排硬</li>
         <li>同屬集火弱點，失衡→擊倒節奏順</li></ul></div>
       <div class="call con"><span class="lbl">缺點</span><ul>
-        <li><b>單一屬性雙面刃</b>：混色廢核心 buff；遇高火抗敵整套縮水（<span class="b tc">火被誰剋＝相剋表待確認</span>）</li>
-        <li>依賴主C，フー・スー・ルー 被控/倒＝前列加成崩</li>
+        <li><b>單一屬性雙面刃</b>：混色廢 buff；遇高火抗敵縮水（<span class="b tc">火被誰剋＝相剋表待確認</span>）</li>
+        <li>依賴主C，フー・スー・ルー 倒＝前列加成崩</li>
         <li>後排 モース/アップル 為 SR（稀有度<span class="b tc">待確認</span>）偏軟</li>
         <li><b>不耐久戰</b>：爆發前置，速攻不成易被拖</li></ul></div>
     </div>
-    <p class="mini"><b>替補</b>：クロミミ(火/劍坦，但吃劍屬綜效在本隊打折)／ビクトール(SSR火/劍，打失衡追擊)／ジーン(換アイリーン走更強回復但犧牲火統一)。<b>取得</b>：フー・スー・ルー 榜評 S、アイリーン SSR；是否新手池與補位角取得 <span class="b tc">待確認</span>。</p>
+    <p class="mini"><b>替補</b>：クロミミ(火/劍坦，本隊綜效打折)／ビクトール(SSR火/劍，打失衡追擊)／ジーン(換アイリーン走更強回復)。<b>取得</b>：フー・スー・ルー 榜評 S、アイリーン SSR；新手池與補位角取得 <span class="b tc">待確認</span>。<b>隊長選誰</b>見<a href="#leader">隊長技分析</a>（推 フー・スー・ルー）。</p>
   </section>
 
   <!-- 劍隊 -->
   <section class="card" id="sword">
     <div class="teamhead"><h2>③ 劍特化隊</h2><span class="tag">劍武器種軸 · 開局速殺 · 最好湊</span></div>
-    <div class="note" style="margin:8px 0 4px"><b>重要澄清</b>：這隊真正的 buff 軸是「<b>武器種＝劍屬性</b>」不是五行（五行拿來打弱點）。而且<b>後排 サンチェス 是「智」屬性、非劍屬</b>，吃不到劍軸 buff——所以本隊實為「<b>4 劍 DPS 核心（ゲオルグ／フリック／キカ／レツオウ）＋3 通用支援</b>」，非「6 人全劍」。</div>
+    <div class="note" style="margin:8px 0 4px"><b>重要澄清</b>：這隊真正 buff 軸是「<b>武器種＝劍屬性</b>」不是五行（五行拿來打弱點）。且<b>後排 サンチェス 是「智」屬性、非劍屬</b>——所以本隊實為「<b>4 劍 DPS 核心（ゲオルグ／フリック／キカ／レツオウ）＋3 通用支援</b>」。</div>
     <div class="form">
       <div class="formrow"><div class="lbl">前列</div><div class="mem"><span class="chip"><b>ゲオルグ</b>·主C</span><span class="chip">フリック·副C</span><span class="chip"><b>キカ</b>·坦/隊長</span></div></div>
       <div class="formrow"><div class="lbl">後列</div><div class="mem"><span class="chip">レツオウ·補</span><span class="chip">サンチェス·補</span><span class="chip">ジーン·補師</span></div></div>
     </div>
-
     <div class="chars">
       <div class="ch"><div class="cn"><span class="nm">ゲオルグ</span><span class="mini">泰然たる剣豪</span></div>
         <div class="tags"><span class="b ssr">SSR</span><span class="b e-earth">土</span><span class="b wpn">劍</span><span class="b role">主C</span></div>
-        <dl><dt>奧義</dt><dd>刹那：單體超高倍率斬殺</dd>
-        <dt>個性發動</dt><dd class="persona">「お前のために剣を振るおう」戰鬥開始時 <b>物攻+90%(強化150%)＋奧義槽充75~100%</b>＝<b>第一回合直接開「刹那」</b>；之後每次行動物攻-9%(最多10次)＝極致前期爆發、越拖越弱。隊長技：劍屬HP物攻+18%。</dd></dl>
+        <dl><dt>通常攻擊</dt><dd>飛燕 單體物理（對飛行 tag 增傷5%）</dd>
+        <dt>奧義</dt><dd>刹那：單體超高倍率斬殺</dd>
+        <dt>紋章技</dt><dd>飛燕(單體物理)；大地穿(縱範圍物理)</dd>
+        <dt>個性發動</dt><dd class="persona">「お前のために剣を振るおう」戰鬥開始時<b>物攻+90%(強化150%)＋奧義槽充75~100%</b>＝首回合直接開「刹那」；之後每次行動物攻-9%(最多10次)＝越拖越弱</dd>
+        <dt>隊長技</dt><dd class="lead">劍屬性 <b>HP＆物攻+18%</b></dd></dl>
       </div>
       <div class="ch"><div class="cn"><span class="nm">フリック</span><span class="mini">旅の剣士</span></div>
         <div class="tags"><span class="b sr">SR</span><span class="b e-thunder">雷</span><span class="b wpn">劍</span><span class="b role">副C</span></div>
-        <dl><dt>技</dt><dd>普攻35%機率連擊；奧義 疾雷 多段物理</dd>
-        <dt>個性發動</dt><dd class="persona">「じゃ、本気でいかせてもらうぜ」HP≤50%時攻擊＆防禦+60%(1回)。相性「劍武の集い」<b>物攻+劍屬隊友數×4%</b>＝吃劍隊人數越多越強；多段連擊利破失衡。</dd></dl>
+        <dl><dt>通常攻擊</dt><dd>普攻 35% 機率追加連擊</dd>
+        <dt>奧義</dt><dd>疾雷 多段物理</dd>
+        <dt>紋章技</dt><dd>戦剣ノ壱(單體物理＋物防降)；疾走する雷撃(縱範圍魔法)</dd>
+        <dt>個性發動</dt><dd class="persona">「じゃ、本気でいかせてもらうぜ」HP≤50%時攻擊＆防禦+60%(1回)</dd>
+        <dt>相性技</dt><dd>劍武の集い：<b>物攻+劍屬隊友數×4%</b>（劍隊越多越強）</dd>
+        <dt>隊長技</dt><dd class="lead">雷屬性 攻擊+8%</dd></dl>
       </div>
       <div class="ch"><div class="cn"><span class="nm">キカ</span><span class="mini">隼雷の海賊姫</span></div>
         <div class="tags"><span class="b ssr">SSR</span><span class="b e-thunder">雷</span><span class="b wpn">劍</span><span class="b role">坦/隊長</span></div>
-        <dl><dt>奧義</dt><dd>紫電双閃 單體多段物理＋自身物攻+2</dd>
-        <dt>個性發動</dt><dd class="persona">「正義を証明するよ」<b>同列(前列)劍屬隊友物攻＆魔防+35%</b>(受益＝ゲオルグ/フリック)＋普攻75%機率連擊。指南「魔法護り」<b>對魔法攻擊發かばう＋魔防+35%</b>。隊長技：劍屬物攻＆物防+18%。＝坦＋buffer＋隊長三合一。</dd></dl>
+        <dl><dt>通常攻擊</dt><dd>50~75% 機率追加連擊</dd>
+        <dt>奧義</dt><dd>紫電双閃 單體多段物理＋自身物攻+2</dd>
+        <dt>紋章技</dt><dd>五月雨隼突き(單體物理×3多段·利破失衡)；雷鳴斬り(單體物理)</dd>
+        <dt>個性發動</dt><dd class="persona">「正義を証明するよ」<b>同列(前列)劍屬隊友物攻＆魔防+35%</b>；付属 普攻75%機率追擊(最多10)</dd>
+        <dt>指南技</dt><dd>魔法護り：對魔法攻擊發<b>かばう＋魔防+35%</b>（注意：只擋魔法）</dd>
+        <dt>隊長技</dt><dd class="lead">劍屬性 <b>物攻＆物防+18%</b></dd></dl>
       </div>
       <div class="ch"><div class="cn"><span class="nm">レツオウ</span><span class="mini">幻を追う包丁人</span></div>
         <div class="tags"><span class="b sr">SR</span><span class="b e-earth">土</span><span class="b wpn">劍</span><span class="b role">補助</span></div>
-        <dl><dt>個性發動</dt><dd class="persona">「ウデをふるわせて…」戰鬥開始時 <b>最高物攻土屬1體物攻+40~60%</b>＝點名 ゲオルグ。本身<b>武器種=劍</b>＝進 キカ隊長／フリック 劍武の集い 計數。＝把主C推到極限的專屬放大器。</dd>
-        <dt>技</dt><dd>千刃捌き 橫範圍；御馳走 味方橫排回HP</dd></dl>
+        <dl><dt>奧義／紋章</dt><dd>千刃捌き 橫範圍物理；御馳走 味方橫排回HP＋物攻魔攻速+1</dd>
+        <dt>個性發動</dt><dd class="persona">「ウデをふるわせて…」開場<b>最高物攻土屬1體物攻+40~60%</b>＝點名 ゲオルグ。本身<b>武器種=劍</b>＝進 キカ/フリック 的劍屬計數</dd>
+        <dt>隊長技</dt><dd class="lead">全體 HP+7%</dd></dl>
       </div>
       <div class="ch"><div class="cn"><span class="nm">サンチェス</span><span class="mini">博覧強記</span></div>
         <div class="tags"><span class="b sr">SR</span><span class="b e-earth">土/智</span><span class="b wpn">智</span><span class="b role">補助</span></div>
-        <dl><dt>個性發動</dt><dd class="persona">「頼みます、ハンフリーさん」戰鬥開始時 <b>自身＋正面隊友攻擊+1階，並直接發動奧義</b>（全體物理 ハンフリータックル）。</dd>
-        <dt>注意</dt><dd>⚠️<b>非劍屬性</b>，吃不到劍軸 buff；靠「開場全體奧義＋正面+1階＋單體大回復」的<b>通用支援</b>價值入選。</dd></dl>
+        <dl><dt>奧義</dt><dd>ハンフリータックル 全體物理</dd>
+        <dt>紋章技</dt><dd>伏兵(單體魔法)；衛生兵(味方單體大回HP)</dd>
+        <dt>個性發動</dt><dd class="persona">「頼みます、ハンフリーさん」戰鬥開始時<b>自身＋正面隊友攻擊+1階，並直接發動奧義</b></dd>
+        <dt>隊長技</dt><dd class="lead">土屬性 防禦+8%</dd>
+        <dt>注意</dt><dd>⚠️<b>非劍屬</b>，吃不到劍軸 buff；靠通用支援價值入選</dd></dl>
       </div>
       <div class="ch"><div class="cn"><span class="nm">ジーン</span><span class="mini">深淵の紋章師</span></div>
         <div class="tags"><span class="b ssr">SSR</span><span class="b e-water">水</span><span class="b wpn">智</span><span class="b role">回復</span></div>
-        <dl><dt>個性發動</dt><dd class="persona">「万全を期しましょうね」計4次行動後魔攻+50%＋全隊行動時回HP；指南「起死」<b>隊友倒下16%HP復活</b>。＝橫範圍大奶＋蘇生的續戰核心（非劍屬、純治療位）。</dd></dl>
+        <dl><dt>奧義／紋章</dt><dd>氷結の楔 單體魔法＋敵魔防降；優しさの波 味方橫排回HP</dd>
+        <dt>個性發動</dt><dd class="persona">「万全を期しましょうね」計4次行動後魔攻+50%＋全隊行動時回HP；指南「起死」<b>隊友倒下16%HP復活</b></dd>
+        <dt>隊長技</dt><dd class="lead">水屬性 HP＆攻擊+15%(可疊5次)</dd></dl>
       </div>
     </div>
-
     <h3>組隊邏輯 · 武器種=劍 軸</h3>
-    <p>黏著劑是<b>「武器種＝劍」</b>：三個 buff 疊在劍屬上——<b>キカ隊長(劍屬物攻物防+18%)＋キカ個性(同列劍屬物攻魔防+35%)＋フリック「劍武の集い」(物攻+劍屬人數×4%)</b>。<b>キカ當隊長</b>因她本身是坦、隊長技兼給輸出與防禦，一人身兼坦/buffer/隊長。<b>ゲオルグ主爆發</b>：開場物攻爆漲＋奧義槽即滿、首回合開「刹那」，再由 レツオウ 點他+40~60%，形成第一回合斬殺。</p>
-    <h3>連攜 · 前排斬殺流</h3>
-    <p>用 フリック(35%)／キカ(75%)連擊＋多段紋章先把敵人打到<b>失衡→擊倒</b>，再由 ゲオルグ「刹那」與 キカ「紫電双閃」在 <b>+50% 增傷視窗</b>一次收。連攜靠攻擊手「速」調近湊 4 連動。</p>
+    <p>黏著劑是<b>「武器種＝劍」</b>：<b>キカ隊長(劍屬物攻物防+18%)＋キカ個性(同列劍屬物攻魔防+35%)＋フリック「劍武の集い」(物攻+劍屬人數×4%)</b>。<b>ゲオルグ主爆發</b>：開場物攻爆漲＋奧義槽即滿、首回合開「刹那」，再由 レツオウ 點他+40~60%＝第一回合斬殺。破弱點靠 フリック(35%)／キカ(75%)連擊＋多段紋章做失衡→擊倒，再在+50%增傷視窗一次收。</p>
     <div class="cols">
       <div class="call pro"><span class="lbl">優點</span><ul>
         <li>buff 疊層極深：劍屬同吃 隊長+18%、同列+35%、劍武×4%，主C 再被點+40~60%</li>
@@ -349,42 +384,87 @@ footer a{color:var(--muted)}
         <li><b>爆發遞減怕拖</b>：ゲオルグ 物攻每行動-9%，長期戰跳水</li>
         <li>かばう 有缺口：キカ 只擋<b>魔法</b>，物理向守護要靠替補 クロミミ</li>
         <li>後排三人非劍屬，buff 效益集中前排3人</li>
-        <li>五行分散(土/雷/水)，遇特定屬抗敵能打弱點角有限；SR 佔比高，深水區續戰弱</li></ul></div>
+        <li>五行分散(土/雷/水)；SR 佔比高，深水區續戰弱</li></ul></div>
     </div>
-    <p class="mini"><b>替補</b>：補師 ジーン↔ルセリナ（要蘇生+控場選ジーン；要全體回復+全體攻擊+20%拉火力選ルセリナ）／クロミミ(SR火·劍·<b>物理向坦</b>，補キカ只擋魔法的缺口，劍隊專用)／オデッサ(SR·帶劍屬的治療，可同時進劍屬計數)。<b>取得</b>：<b>キカ 好抽(交換/免費轉蛋)✓、ルセリナ 恒常好抽✓＝本隊好湊</b>；ゲオルグ 取得池 <span class="b tc">待確認</span>；ジーン 限定/恒常 <span class="b tc">資料衝突待確認</span>。</p>
+    <p class="mini"><b>替補</b>：補師 ジーン↔ルセリナ(要蘇生選ジーン；要全體回復+全體攻擊+20%拉火力選ルセリナ)／クロミミ(SR火·劍·<b>物理向坦</b>，補キカ只擋魔法的缺口)／オデッサ(SR·帶劍屬治療)。<b>取得</b>：<b>キカ 好抽(交換/免費轉蛋)✓、ルセリナ 恒常好抽✓＝本隊好湊</b>；ゲオルグ 取得池 <span class="b tc">待確認</span>；ジーン 限定/恒常 <span class="b tc">資料衝突待確認</span>。<b>隊長選誰</b>見<a href="#leader">隊長技分析</a>（推 ゲオルグ）。</p>
+  </section>
+
+  <!-- 隊長技分析 -->
+  <section class="card" id="leader">
+    <div class="teamhead"><h2>隊長技分析：每隊隊長選誰？</h2><span class="tag">リーダーパッシブ</span></div>
+    <p><b>隊長技＝設為隊長那一隻才對全隊生效的【常時】被動 buff</b>（開場即生效、無需觸發），與條件觸發的「個性發動」是不同欄位。<b>一隊只吃一個隊長的隊長技</b>——所以要挑「加成對到本隊主軸(屬性/tag)、覆蓋人數最多、又同時加攻＋(HP或防)」的那隻。<span class="mini">（「一隊一隊長」屬遊戲通例與各站把隊長技獨立成欄的強推定；三站編成頁未逐字明文＝此點<span class="b tc">待確認</span>。）</span></p>
+
+    <h3>主角軸隊 → 最佳隊長：<span class="best">幻水Ⅰ主人公</span></h3>
+    <div class="tw"><table>
+      <thead><tr><th>角色</th><th>隊長技</th><th>對誰</th></tr></thead>
+      <tbody>
+        <tr><td class="best">幻水Ⅰ主角 ★</td><td>基礎能力+10%</td><td>解放軍 tag（攻/防/HP 全加）</td></tr>
+        <tr><td>メース（次選）</td><td>HP＆攻擊+12%</td><td>解放軍 tag</td></tr>
+        <tr><td>ファラ</td><td>物攻+20%</td><td>風屬性</td></tr>
+        <tr><td>ジーン</td><td>HP＆攻擊+15%(疊5)</td><td>水屬性</td></tr>
+        <tr><td>ヒックス／レツオウ</td><td>物防+10%／全體HP+7%</td><td>劍屬性／全體</td></tr>
+      </tbody>
+    </table></div>
+    <p class="mini">本隊屬性雜、但主角與メース共綁 <b>解放軍 tag</b>，tag buff 覆蓋比屬性廣。主角「解放軍·<b>全能力+10%</b>」攻防HP一起加、通用性最高 → 當隊長。偏純進攻可換 メース(+12%但無防)。⚠️前提：多數成員需帶解放軍 tag（ファラ/ジーン/ヒックス 的 tag 站上未明列 <span class="b tc">待確認</span>）。</p>
+
+    <h3>火隊 → 最佳隊長：<span class="best">フー・スー・ルー</span></h3>
+    <div class="tw"><table>
+      <thead><tr><th>角色</th><th>隊長技</th><th>對誰</th></tr></thead>
+      <tbody>
+        <tr><td class="best">フー・スー・ルー ★</td><td>HP＆物攻+15%</td><td>火屬性（全隊覆蓋）</td></tr>
+        <tr><td>レパント（次選）</td><td>HP＆物攻+18%</td><td>解放軍 tag（數值最高但綁tag）</td></tr>
+        <tr><td>アイリーン</td><td>魔防+20%</td><td>火屬性（打魔法關副手）</td></tr>
+        <tr><td>フラナガン／モース／アップル</td><td>物防+20%／HP攻+6%／基礎+5%</td><td>里守軍 tag／解放軍 tag</td></tr>
+      </tbody>
+    </table></div>
+    <p class="mini">本隊主軸<b>火屬性</b>，フー・スー・ルー「火屬·HP＆物攻+15%」覆蓋全隊又雙加 → 最泛用、當隊長。レパント +18% 數值更高<b>但綁解放軍 tag</b>（フラナガン是里守軍未必吃到）；<b>若全隊都掛解放軍 tag，改 レパント +18% 反而最強</b>，可對調。</p>
+
+    <h3>劍隊 → 最佳隊長：<span class="best">ゲオルグ</span></h3>
+    <div class="tw"><table>
+      <thead><tr><th>角色</th><th>隊長技</th><th>對誰</th></tr></thead>
+      <tbody>
+        <tr><td class="best">ゲオルグ ★</td><td>HP＆物攻+18%</td><td>劍屬性</td></tr>
+        <tr><td>キカ（次選）</td><td>物攻＆物防+18%</td><td>劍屬性</td></tr>
+        <tr><td>フリック／サンチェス</td><td>攻+8%／防禦+8%</td><td>雷屬性／土屬性（低·不推）</td></tr>
+        <tr><td>ルセリナ(替補)</td><td>防禦＆魔攻+12%</td><td>智屬性</td></tr>
+      </tbody>
+    </table></div>
+    <p class="mini">兩劍屬隊長技同為 +18%：ゲオルグ「劍屬·<b>HP＆物攻+18%</b>」HP 同時擋物理與魔法、泛用生存最佳 → 當隊長；キカ「劍屬·<b>物攻＆物防+18%</b>」物防只擋物理，<b>偏物理硬關時換 キカ 更肉</b>。</p>
+
+    <div class="call key" style="margin-top:12px"><span class="lbl">一句話</span>隊長挑「加成對到本隊主軸＋同時加攻和HP/防」的那隻：主角軸推 <b>主人公</b>(解放軍全能力+10%)、火隊推 <b>フー・スー・ルー</b>(火屬HP物攻+15%)、劍隊推 <b>ゲオルグ</b>(劍屬HP物攻+18%)。</div>
   </section>
 
   <!-- 三隊比較 -->
   <section class="card">
     <div class="teamhead"><h2>三隊快速比較</h2></div>
     <div class="tw"><table>
-      <thead><tr><th>隊伍</th><th>buff軸</th><th>主軸特性</th><th>好湊度</th><th>適用</th></tr></thead>
+      <thead><tr><th>隊伍</th><th>buff軸</th><th>推薦隊長</th><th>主軸特性</th><th>好湊度</th></tr></thead>
       <tbody>
-        <tr><td>主角軸</td><td>土 五行</td><td>單核爆發＋高容錯（通用T0）</td><td>難（主角非新手池）</td><td>推圖/王戰通用</td></tr>
-        <tr><td>火隊</td><td>火 五行</td><td>開幕爆發速攻</td><td>普通~好</td><td>高爆發推圖/王</td></tr>
-        <tr><td>劍隊</td><td>劍 武器種</td><td>開局速殺（前排斬殺）</td><td><b>最好湊</b>（キカ/ルセリナ好抽）</td><td>競技/斬殺/速通</td></tr>
+        <tr><td>主角軸</td><td>土 五行</td><td>主人公</td><td>單核爆發＋高容錯（T0）</td><td>難（主角非新手池）</td></tr>
+        <tr><td>火隊</td><td>火 五行</td><td>フー・スー・ルー</td><td>開幕爆發速攻</td><td>普通~好</td></tr>
+        <tr><td>劍隊</td><td>劍 武器種</td><td>ゲオルグ</td><td>開局速殺</td><td><b>最好湊</b>（キカ/ルセリナ好抽）</td></tr>
       </tbody>
     </table></div>
-    <p class="mini">想最省力上手 → <b>劍隊</b>（リセマラ 狙 ゲオルグ＋ルセリナ＋キカ）；想要通用最強且抽得到主角 → <b>主角軸</b>。</p>
+    <p class="mini">想最省力上手 → <b>劍隊</b>（リセマラ 狙 ゲオルグ＋ルセリナ＋キカ，キカ 當隊長或 ゲオルグ 當隊長）；想通用最強且抽得到主角 → <b>主角軸</b>。</p>
   </section>
 
   <!-- 待確認 -->
   <section class="card" id="todo">
     <div class="teamhead"><h2>待確認清單（勿當定論）</h2><span class="tag">遊戲第3天，官方/攻略站尚未載明</span></div>
     <ul class="tight">
-      <li><b>五行相剋表</b>：各站未公開「火/土/雷…各被誰剋」的完整輪盤，缺點段的「屬性被剋風險」僅為機制推論</li>
-      <li><b>メース</b> 開場土攻 buff：Gamerch 記 55%、kamigame 記 35%（多為育成段階差異），以帳內實際為準</li>
+      <li><b>五行相剋表</b>：各站未公開「火/土/雷…各被誰剋」的完整輪盤</li>
+      <li><b>隊長機制明文</b>：「一隊只吃一個隊長技」屬強推定，三站編成頁未逐字明文</li>
+      <li><b>解放軍/里守軍 tag 歸屬</b>：主角軸 ファラ/ジーン/ヒックス、火隊各角的 tag 站上未全列，最佳隊長結論前提「多數成員吃到該 tag/屬性」</li>
+      <li><b>メース</b> 開場土攻 buff：Gamerch 55%、kamigame 35%（多為育成段階差異）</li>
       <li><b>モース／アップル</b> 稀有度 SR vs SSR 站間不一</li>
-      <li><b>フラナガン</b> 奧義出現「水1」屬性標記與其火屬定位衝突，單一來源待二核</li>
-      <li><b>ジーン</b> 是否期間限定：角色頁標「恒常+PU」、リセマラ頁標「限定PU(~8/18)」，衝突</li>
-      <li><b>ゲオルグ</b> 恒常/限定取得池 各站未明確標示</li>
-      <li><b>幻水Ⅰ主角</b>「く……」攻擊加成 各源 +100%~+125% 不一</li>
-      <li><b>「同列」判定</b>（前列同一橫排）依 wiki 原文推定，以遊戲內實測為準</li>
+      <li><b>フラナガン</b> 奧義出現「水1」屬性標記與火屬定位衝突</li>
+      <li><b>ジーン</b> 期間限定 vs 恒常：角色頁與リセマラ頁衝突</li>
+      <li><b>ゲオルグ</b> 恒常/限定取得池 各站未明確；主角「く……」加成 +100%~125% 不一；「同列」判定依 wiki 原文推定</li>
     </ul>
   </section>
 
   <footer>
-    <p><b>資料來源</b>（查證日 2026-08-09）：GameWith（各角色頁＋戰鬥のコツ 571445＋リセマラ/スタートダッシュ當たり）、Gamerch（角色個性/固有スキル主要來源）、神ゲー攻略 kamigame（最強編成/リセマラ）、eity-blog（戰鬥系統/連攜/失衡機制）。</p>
+    <p><b>資料來源</b>（查證日 2026-08-09）：GameWith（各角色頁＋戰鬥のコツ 571445＋リセマラ/スタートダッシュ當たり）、Gamerch（角色技能/固有スキル/隊長技主要來源）、神ゲー攻略 kamigame（最強編成/リセマラ/編成の仕組み）、eity-blog（戰鬥系統/連攜/失衡機制）。</p>
     <p><b>免責</b>：本頁為愛好者整理、非官方攻略；日版上線第 3 天早期資料，數值與強度評價會隨版本調整，實裝一律以遊戲內為準。標「待確認」處為站上未載或站間出入，未編造。</p>
   </footer>
 
