@@ -68,6 +68,9 @@ a{color:var(--gold)}
 .e-thunder{color:var(--e-thunder);border:1px solid var(--e-thunder);background:transparent}
 .e-dark{color:var(--e-dark);border:1px solid var(--e-dark);background:transparent}
 .tc{background:var(--danger-soft);color:var(--danger);border:1px solid var(--danger);font-weight:700}
+.fok{background:rgba(111,191,135,.14);color:var(--ok);border:1px solid var(--ok);font-weight:700}
+.fmid{background:var(--warn-soft);color:var(--warn);border:1px solid var(--warn);font-weight:700}
+.fno{background:var(--danger-soft);color:var(--danger);border:1px solid var(--danger);font-weight:700}
 .form{display:grid;grid-template-columns:1fr;gap:8px;margin:10px 0 4px}
 .formrow{border:1px solid var(--line);border-radius:9px;padding:8px 10px;background:var(--surface-2)}
 .formrow .lbl{font-size:.72rem;letter-spacing:.05em;text-transform:uppercase;color:var(--gold);margin-bottom:4px}
@@ -128,6 +131,7 @@ footer a{color:var(--muted)}
     <a class="pill" href="#fire">火隊</a>
     <a class="pill" href="#sword">劍隊</a>
     <a class="pill" href="#leader">隊長技分析</a>
+    <a class="pill" href="#dev">開發新隊</a>
     <a class="pill" href="#todo">待確認</a>
     <button class="themebtn" id="tb" type="button">深/淺色</button>
   </div></nav>
@@ -448,6 +452,100 @@ footer a{color:var(--muted)}
     <p class="mini">想最省力上手 → <b>劍隊</b>（リセマラ 狙 ゲオルグ＋ルセリナ＋キカ，キカ 當隊長或 ゲオルグ 當隊長）；想通用最強且抽得到主角 → <b>主角軸</b>。</p>
   </section>
 
+  <!-- 開發新隊 -->
+  <section class="card" id="dev">
+    <div class="teamhead"><h2>④ 其他 SSR ＆ 開發中新隊伍</h2><span class="tag">SSR 不足處用 SR 補位</span></div>
+    <p>撈了完整 SSR 名單（<b>約 30 角色</b>：11 名已在前 3 隊＋17 名未分析＋數張待確認），研究未分析 SSR 後——<b>真正值得開發的新隊有 4 套</b>，主 C 都是前 3 隊沒用到的角色。SSR 湊不足的坦/補/輔位，用<b>同軸 SR 補位</b>（SR 多半好抽＝更好湊）。</p>
+    <div class="note" style="margin:8px 0 4px"><b>兩個定調</b>：① 你原清單裡的 ビクトール／クロミミ／オデッサ／サンチェス／フリック／ヒックス／レツオウ／モース／アップル <b>其實都是 SR</b>（マース 更只有 R）——本來就是吃屬性 buff 的補位角。② <span class="b fno">闇隊 ❌</span> 全遊戲只有主角 1 個闇屬、連 SR 闇角都沒有；<span class="b fno">連携特化隊 ❌</span> 無專屬引擎角，只能疊在水/雷隊。</div>
+
+    <h3>🥇 水隊 <span class="b fok">✅ 成立 · 最強 · 首推</span></h3>
+    <div class="form">
+      <div class="formrow"><div class="lbl">前列</div><div class="mem"><span class="chip"><b>ガスパー</b>·主C</span><span class="chip">ラン·副C</span><span class="chip">アンジー·補回</span></div></div>
+      <div class="formrow"><div class="lbl">後列</div><div class="mem"><span class="chip">シャプール·坦/連携</span><span class="chip">ジーン·回(SSR)</span><span class="chip">ゲン/オルハン·副C</span></div></div>
+    </div>
+    <p class="mini"><b>buff軸(水五行)</b>：全員水屬→疊 ラン/ゲン/アンジー 三張水隊長技＋<b>ガスパー</b>開戰依同列水屬數放大物攻＋<b>シャプール 連携時全隊攻+25~50%</b>。<b>SR補位</b>：坦→カナック(水/劍·かばう)、輔→カマンドール(智)。<b>好湊度</b>：偏 SSR、中等（回復只有 SSR ジーン）。<b>區隔</b>：縦列水堆疊＋連携爆發，全新玩法。</p>
+
+    <h3>🥈 風隊 <span class="b fok">✅ 成立 · 最好湊</span></h3>
+    <div class="form">
+      <div class="formrow"><div class="lbl">前列</div><div class="mem"><span class="chip">バルカス·坦</span><span class="chip"><b>シドニア</b>·主C</span><span class="chip">スタリオン·副C</span></div></div>
+      <div class="formrow"><div class="lbl">後列</div><div class="mem"><span class="chip">ファラ·補(SSR)</span><span class="chip">ヒスイ·回(SSR)</span><span class="chip">クインシー/ルック·副C(SR)</span></div></div>
+    </div>
+    <p class="mini"><b>buff軸(風五行)</b>：シドニア/スタリオン/バルカス 三張風隊長技疊加＋バルカス「背面風+闘」自強化＋<b>シドニア魔攻down、バルカス物防down 雙デバフ</b>。<b>SR補位(本軸最強項)</b>：副C→クインシー(風劍)/ルック(風智魔攻+15%)、回復→オデッサ(風劍)、輔→ユズ——<b>攻/補/回全可 SR 補齊、唯缺坦(靠 バルカス)</b>。<b>好湊度</b>：即使風 SSR 抽得少，靠 SR 也能撐成半 SR 隊＝<b>最容易上手、前期CP最高</b>。</p>
+
+    <h3>🥉 雷隊 <span class="b fok">✅ 成立 · 唯一官方相性藍圖</span></h3>
+    <div class="form">
+      <div class="formrow"><div class="lbl">前列</div><div class="mem"><span class="chip">キカ·坦(SSR)</span><span class="chip"><b>ラグナル</b>·主C</span><span class="chip">エギル·副C/buffer</span></div></div>
+      <div class="formrow"><div class="lbl">後列</div><div class="mem"><span class="chip">ルセリナ·回(SSR)</span><span class="chip">ビッキー·連携/雷魔攻</span><span class="chip">ニック·坦(SSR)</span></div></div>
+    </div>
+    <p class="mini"><b>buff軸(雷五行)</b>：<b>エギル 給同列雷+劍屬攻+35~55%</b>（同時喂 ラグナル 觸發物攻+85%）＋雷隊長技＋ビッキー 連携魔攻。此為 wiki 唯一明列相性的編成。<b>SR補位</b>：副C→フリック(雷劍)、輔→ムース、免費 ベラドンナ（主線1章取得，同列雷屬攻buff）；<b>但雷 SR 沒有坦/回復→坦補必須 SSR</b>。<b>好湊度</b>：要湊 4+ 雷 SSR、<b>抽度較高</b>；好處是 キカ/ルセリナ 有確定入手。</p>
+
+    <h3>魔法/智隊 <span class="b fmid">🔶 成立但特化/過渡</span></h3>
+    <div class="form">
+      <div class="formrow"><div class="lbl">前列</div><div class="mem"><span class="chip"><b>ロッテ</b>·主C</span><span class="chip">アイリーン·回(SSR)</span><span class="chip">ルセリナ·補(SSR)</span></div></div>
+      <div class="formrow"><div class="lbl">後列</div><div class="mem"><span class="chip">エスメラルダ·(SR)</span><span class="chip">アップル·補(SR)</span><span class="chip">ビッキー·連携</span></div></div>
+    </div>
+    <p class="mini"><b>buff軸(魔攻/智)</b>：<b>ロッテ</b> 開戰依火屬數疊魔攻＋智武器 buff(カマンドール 智物攻+10%)＋群體魔法 AoE。<b>SR補位(智 SR 多、極好湊)</b>：エスメラルダ/カマンドール/ヘリオン/免費 マリエ。<b>評級</b>：官方最強編成有列＝堪用，但魔攻角散落五行、屬性 buff 吃不齊、協同較鬆 → <b>定位過渡/特化</b>，勝在對高物防敵有奇效、玩法與四套物理隊完全區隔。</p>
+
+    <h4>未分析 SSR 技能組（構築關鍵）</h4>
+    <div class="tw"><table>
+      <thead><tr><th>角色</th><th>屬/武/位</th><th>個性・隊長技重點</th><th>用途</th></tr></thead>
+      <tbody>
+        <tr><td>ガスパー</td><td><span class="b e-water">水</span>/闘智/攻</td><td>開戰依同列水屬數×30~50%物攻；隊長 智HP物防+15%</td><td>水隊主C</td></tr>
+        <tr><td>ラン</td><td><span class="b e-water">水</span>/劍/攻</td><td>4行動後物攻+100~125%、水與傷+35~50%；隊長 水HP攻+12%</td><td>水隊長/副C</td></tr>
+        <tr><td>ゲン</td><td><span class="b e-water">水</span>/劍/攻</td><td>瀕死物攻+175%(1回)；隊長 水HP攻+15%</td><td>水隊爆發</td></tr>
+        <tr><td>オルハン</td><td><span class="b e-water">水</span>/劍/攻</td><td>WEAK6連後物攻+100%物防+75%；隊長 里守軍HP物攻+18%</td><td>水隊AoE</td></tr>
+        <tr><td>シャプール</td><td><span class="b e-water">水</span>/闘/補守</td><td><b>連携時全隊攻+25~50%</b>；受流し90%減傷；隊長 里守軍攻防+18%</td><td>水隊坦/連携buffer</td></tr>
+        <tr><td>アンジー</td><td><span class="b e-water">水</span>/闘/補回</td><td>開戰同列水屬物攻防+20%；隊長 水三圍+12%</td><td>水隊輔/隊長</td></tr>
+        <tr><td>ラグナル</td><td><span class="b e-thunder">雷</span>/劍/攻</td><td>受物攻強化時物攻+85%；隊長 雷攻魔防+12%</td><td>雷隊主C</td></tr>
+        <tr><td>エギル</td><td><span class="b e-thunder">雷</span>/劍/攻</td><td>速強化時同列雷+劍屬攻+35~55%；隊長 劍攻魔防+12%</td><td>雷隊buffer</td></tr>
+        <tr><td>ニック</td><td><span class="b e-thunder">雷</span>/劍/守</td><td>4受流し後物攻防+55~75%；受流し90%減傷；隊長 雷HP防+12%</td><td>雷隊減傷坦</td></tr>
+        <tr><td>ビッキー</td><td><span class="b e-thunder">雷</span>/智/補</td><td>2連携後雷魔攻防+20~40%、<b>自動加入連携</b>；隊長 雷魔防+20%</td><td>連携引擎/雷魔攻</td></tr>
+        <tr><td>シドニア</td><td><span class="b e-wind">風</span>/闘/攻</td><td>速強化時物攻+75~100%；紋章帶魔攻down；隊長 風物攻魔防+15%</td><td>風隊主C/デバフ</td></tr>
+        <tr><td>スタリオン</td><td><span class="b e-wind">風</span>/闘/攻</td><td>3再行動後物攻+125%、WEAK命中再行動；隊長 風攻+15%</td><td>風隊副C</td></tr>
+        <tr><td>バルカス</td><td><span class="b e-wind">風</span>/闘/守</td><td>背面為風+闘時物攻防+85~115%；紋章物防down；隊長 風三圍+12%</td><td>風隊坦</td></tr>
+        <tr><td>ヒスイ</td><td><span class="b e-wind">風</span>/智/回</td><td>味方HP≤50%全體回15~25%＋風屬攻防+10%</td><td>風隊回復/AoE</td></tr>
+        <tr><td>ロッテ</td><td><span class="b e-fire">火</span>/智/攻</td><td>開戰依火屬數×15~25%魔攻防；隊長 火魔攻魔防+15%</td><td>魔法隊主C</td></tr>
+        <tr><td>テンガアール</td><td><span class="b e-earth">土</span>/劍/攻</td><td>開戰攻防+80~100%(受攻自削魔攻防)；隊長 劍攻+15%</td><td>劍隊魔法系buff</td></tr>
+        <tr><td>モーガン</td><td><span class="b e-earth">土</span>/闘/攻</td><td>2次物理無效化後物攻防+60~80%；隊長 闘物攻防+15%</td><td>闘隊/耐久</td></tr>
+      </tbody>
+    </table></div>
+
+    <h4>SR 補位表（同軸墊坦/補/副C，多半好抽）</h4>
+    <div class="tw"><table>
+      <thead><tr><th>SR 角色</th><th>屬/武/位</th><th>提供什麼</th><th>補哪隊</th></tr></thead>
+      <tbody>
+        <tr><td>カナック</td><td><span class="b e-water">水</span>/劍/守</td><td>隊長 水HP+10%；かばう＋物防疊加</td><td>水隊坦</td></tr>
+        <tr><td>カマンドール</td><td><span class="b e-water">水</span>/智/補</td><td>隊長 <b>智武器種</b>物攻+10%（唯一真吃智軸）</td><td>魔法/智隊核心</td></tr>
+        <tr><td>クインシー</td><td><span class="b e-wind">風</span>/劍/攻</td><td>隊長 風物攻物防+8%；連鎖攻擊</td><td>風隊副C</td></tr>
+        <tr><td>ルック</td><td><span class="b e-wind">風</span>/智/攻</td><td>隊長 風魔攻+15%（風SR最高）</td><td>風隊魔法副C</td></tr>
+        <tr><td>オデッサ</td><td><span class="b e-wind">風</span>/劍/回</td><td>隊長 風魔攻魔防+12%；HP≤50%回復</td><td>風隊回復</td></tr>
+        <tr><td>フリック</td><td><span class="b e-thunder">雷</span>/劍/攻</td><td>隊長 雷攻+8%；HP≤50%攻防+50~60%</td><td>雷隊副C</td></tr>
+        <tr><td>ムース</td><td><span class="b e-thunder">雷</span>/闘/補</td><td>開戰前列雷屬攻+10%</td><td>雷隊輔</td></tr>
+        <tr><td>エスメラルダ</td><td><span class="b e-fire">火</span>/智/補</td><td>隊長 火魔防+10%；受魔攻反擊＋敵魔防-2</td><td>魔法隊</td></tr>
+        <tr><td>ヘリオン</td><td><span class="b e-earth">土</span>/智/補</td><td>前列HP+15%、HP&lt;50%魔法護盾、前列魔防+4段</td><td>魔法/耐久隊</td></tr>
+        <tr><td>クロミミ</td><td><span class="b e-fire">火</span>/劍/守</td><td>物防依同列劍武器種數疊加（唯一真吃武器種坦）</td><td>劍隊/火隊</td></tr>
+        <tr><td>免費 ベラドンナ</td><td><span class="b e-thunder">雷</span>/闘/補</td><td>隊長 闘武器種物攻防+8%；同列雷屬攻buff（主線1章取得）</td><td>雷隊/闘隊(免費)</td></tr>
+        <tr><td>免費 マリエ</td><td><span class="b e-fire">火</span>/智/補</td><td>隊長 火魔攻魔防+8%；前排奧義槽+25%</td><td>魔法隊(免費)</td></tr>
+      </tbody>
+    </table></div>
+
+    <h4>判死 / 非獨立流派的軸（誠實判定）</h4>
+    <div class="tw"><table>
+      <thead><tr><th>軸</th><th>評級</th><th>判定</th></tr></thead>
+      <tbody>
+        <tr><td>闇隊</td><td><span class="b fno">❌ 湊不成</span></td><td>全遊戲僅主角 1 闇角（雙屬性、隊長技還鎖解放軍tag），連 SR 闇角都不存在，待改版</td></tr>
+        <tr><td>連携特化隊</td><td><span class="b fno">❌ 非獨立</span></td><td>連携是全隊通用機制、無專屬引擎角（僅 ビッキー/シャプール 能吃），只能疊在水/雷隊當 overlay</td></tr>
+        <tr><td>耐久續戰隊</td><td><span class="b fmid">🔶 風格</span></td><td>減傷/坦/回復零件充足，但無「回合疊加獎勵」引擎、無 SR 一鍵全隊減傷＝打法風格非獨立流派</td></tr>
+        <tr><td>全體 AoE 隊</td><td><span class="b fmid">🔶 用途</span></td><td>AoE 奧義角多，但無 AoE 增幅軸＋受奧義槽節流＝對群用途成立，非 buff 協同流派</td></tr>
+        <tr><td>闘武器種隊</td><td><span class="b fmid">🔶 重疊</span></td><td>闘角池深可玩，但缺主角就沒堪用主C＝更像「主角土隊變體」非全新隊</td></tr>
+      </tbody>
+    </table></div>
+
+    <div class="call con"><span class="lbl">命名地雷（務必看）</span><b>モース</b>(SR·火闘·補) ≠ <b>メース</b>(SSR·土闘·補) ≠ <b>マース</b>(R·水闘)——三個只差一字、強度差一整階（SSR/SR/R），排陣時勿選錯。</div>
+
+    <div class="call key"><span class="lbl">開發優先序（一句話）</span><b>水隊</b>(最強·素材足)＞<b>風隊</b>(最好湊·SR補位最全)＞<b>雷隊</b>(有官方藍圖·抽度略高)＞<b>魔法隊</b>(玩法區隔最大·過渡特化)。這 4 套主 C 都是前 3 隊沒用到的角色，能真正擴充你的隊伍選擇。</div>
+  </section>
+
   <!-- 待確認 -->
   <section class="card" id="todo">
     <div class="teamhead"><h2>待確認清單（勿當定論）</h2><span class="tag">遊戲第3天，官方/攻略站尚未載明</span></div>
@@ -460,6 +558,7 @@ footer a{color:var(--muted)}
       <li><b>フラナガン</b> 奧義出現「水1」屬性標記與火屬定位衝突</li>
       <li><b>ジーン</b> 期間限定 vs 恒常：角色頁與リセマラ頁衝突</li>
       <li><b>ゲオルグ</b> 恒常/限定取得池 各站未明確；主角「く……」加成 +100%~125% 不一；「同列」判定依 wiki 原文推定</li>
+      <li><b>開發新隊區</b>：未分析 SSR 數值兩站多處不一致（疑「凸」階段差異）；新角 エイヴェリー／ツラナミ／ゴンオウ／マーレ 稀有度/實裝待確認；水/雷/風隊的相性文本可能未收錄齊——建議上線一週後 wiki 更新再校準一次</li>
     </ul>
   </section>
 
